@@ -373,7 +373,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"12"
+		"linespacing"	"15"
 		"fgcolor"		"blue"
 		
 		if_mvm

@@ -19,6 +19,8 @@
 		"enabled"	"1"
 		"xpos"		"r420"
 		"ypos"		"r115"
+		"xpos_minmode" "9999"
+		"ypos_minmode" "9999"
 		"zpos"		"-500"
 		"wide"		"225"
 		"tall"		"45"
