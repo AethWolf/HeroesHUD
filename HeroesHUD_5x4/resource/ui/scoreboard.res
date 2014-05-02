@@ -12,7 +12,7 @@
 		"wide_lodef"	"560"
 		"wide_hidef"	"620"
 		"tall"			"448"
-		"autoResize"	"0"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -400,7 +400,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"12"
+		"linespacing"	"15"
 		"textcolor"		"red"
 		
  		if_mvm

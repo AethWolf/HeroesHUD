@@ -120,11 +120,11 @@
 		"PCWButton"
 	{
 		"label"		"Hoofington"
-		"command"		"engine connect 66.151.244.185:27018"
+		"command"		"engine connect 162.248.89.187:27018"
 	}
 	"DMButton"
 	{
-		"label"		"Ponyville"
-		"command"		"engine connect 66.151.244.185:27015"
+		"label"		"Fillydelphia"
+		"command"		"engine connect 162.248.89.187:27019"
 	}
 }
