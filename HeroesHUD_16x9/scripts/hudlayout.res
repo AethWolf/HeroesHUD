@@ -11,6 +11,39 @@
 		"tall"	"480"
 	}
 	
+	"CrossHairKonrWingsOutline"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "KonrOutline"
+		"visible" "0"
+		"enabled" "1"
+		"zpos" "-1"
+		"xpos" 		 "c-108"
+		"ypos" 		 "c-99"
+		"wide" 		 "200"
+		"tall" 		 "200"
+		"font" "KonrOutline"
+		"labelText" "i"
+		"textAlignment" "center"
+		"fgcolor" "CrosshairColor"
+	}
+	"OtherCrossHairs"
+		{
+			"controlName" "CExLabel"
+			"fieldName" "OtherCrossHairs"
+			"visible" "0"
+			"enabled" "1"
+			"zpos" "-1"
+			"xpos" 		 "c-100"
+			"ypos" 		 "c-98"
+			"wide" 		 "200"
+			"tall" 		 "200"
+			"font" "xHairs"
+			"labelText" "8"
+			"textAlignment" "center"
+			"fgcolor" "CrosshairColor"
+		}
+	
 	HudHeroStats
 	{
 		"controlName"	"editablepanel"
@@ -18,8 +51,8 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"r540"
-		"ypos"		"r115"
 		"xpos_minmode" "9999"
+		"ypos"		"r115"
 		"ypos_minmode" "9999"
 		"zpos"		"-500"
 		"wide"		"225"

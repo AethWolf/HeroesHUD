@@ -170,6 +170,9 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		//Custom colors
+		"CrosshairColor" 			"255 255 255 128"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -2405,6 +2408,29 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		//Crosshairs
+		"KonrOutline"
+		{
+			"1"
+			{
+				"name" "Garm3nFont"
+				"tall" "24"
+				"weight" "0"
+				"antialias" "1"
+				"outline" "1"
+			}
+		}
+		"xHairs"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall"	"24"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
 
 	}
 
@@ -4316,6 +4342,16 @@ Scheme
 		{
 			"font" "resource/fonts/CelestiaMediumRedux.ttf"
 			"name" "Celestia Medium Redux"
+		}
+		"8"
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Crosshairs.ttf"
+			"name" "Crosshairs"
 		}
 	}
 }
