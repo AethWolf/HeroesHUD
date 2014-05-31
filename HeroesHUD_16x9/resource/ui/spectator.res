@@ -14,32 +14,32 @@
 	"specgui"
 	{
 	}
-	RedHeroSpec
-	{
-		"controlName"	"editablepanel"
-		"fieldName"	"RedHeroSpec"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"215"
-		"zpos"		"-500"
-		"wide"		"150"
-		"tall"		"30"
-		"bgcolor_override"	"189 59 59 255"
-	}
-	BluHeroSpec
-	{
-		"controlName"	"editablepanel"
-		"fieldName"	"BluHeroSpec"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"257"
-		"zpos"		"-500"
-		"wide"		"150"
-		"tall"		"30"
-		"bgcolor_override"	"91 122 140 255"
-	}
+	//RedHeroSpec
+	//{
+	//	"controlName"	"editablepanel"
+	//	"fieldName"	"RedHeroSpec"
+	//	"visible"	"1"
+	//	"enabled"	"1"
+	//	"xpos"		"c250"
+	//	"ypos"		"215"
+	//	"zpos"		"-500"
+	//	"wide"		"180"
+	//	"tall"		"30"
+	//	"bgcolor_override"	"189 59 59 255"
+	//}
+	//BluHeroSpec
+	//{
+	//	"controlName"	"editablepanel"
+	//	"fieldName"	"BluHeroSpec"
+	//	"visible"	"1"
+	//	"enabled"	"1"
+	//	"xpos"		"c250"
+	//	"ypos"		"257"
+	//	"zpos"		"-500"
+	//	"wide"		"180"
+	//	"tall"		"30"
+	//	"bgcolor_override"	"91 122 140 255"
+	//}
 	"topbar"
 	{
 		"ControlName"		"Panel"
