@@ -1,15 +1,5 @@
 "Resource/HudLayout.res"
 {
-	HudPlayerStatus
-	{
-		"fieldName" "HudPlayerStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-	}
 	"CrossHairKonrWingsOutline"
 	{
 		"controlName" "CExLabel"
@@ -27,21 +17,21 @@
 		"fgcolor" "CrosshairColor"
 	}
 	"OtherCrossHairs"
-		{
-			"controlName" "CExLabel"
-			"fieldName" "OtherCrossHairs"
-			"visible" "0"
-			"enabled" "1"
-			"zpos" "-1"
-			"xpos" 		 "c-100"
-			"ypos" 		 "c-98"
-			"wide" 		 "200"
-			"tall" 		 "200"
-			"font" "xHairs"
-			"labelText" "8"
-			"textAlignment" "center"
-			"fgcolor" "CrosshairColor"
-		}
+	{
+		"controlName" "CExLabel"
+		"fieldName" "OtherCrossHairs"
+		"visible" "0"
+		"enabled" "1"
+		"zpos" "-1"
+		"xpos" 		 "c-100"
+		"ypos" 		 "c-98"
+		"wide" 		 "200"
+		"tall" 		 "200"
+		"font" "xHairs"
+		"labelText" "8"
+		"textAlignment" "center"
+		"fgcolor" "CrosshairColor"
+	}
 	
 	HudHeroStats
 	{
@@ -58,7 +48,17 @@
 		"tall"		"45"
 		"bgcolor_override"	"0 0 0 200"
 	}
-	
+	HudPlayerStatus
+	{
+		"fieldName" "HudPlayerStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
@@ -794,23 +794,23 @@
 		"wide" "145"
 		"tall" "400"
 
-		"item_wide"	"150"
+		"item_wide"	"135"
 		
-		"show_avatar"		"1"
+		"show_avatar"		"0"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"125"
+		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 		
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
-		"icon_xpos"			"0"
+		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"50"
+		"text_xpos"			"33"
 	}
 
 	HudHintDisplay
@@ -1047,6 +1047,18 @@
 		"ypos"			"c-59"
 		"wide"			"450"
 		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
+		"wide"			"250"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1415,5 +1427,19 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
 	}
 }
